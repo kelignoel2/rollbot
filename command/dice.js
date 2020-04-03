@@ -24,7 +24,7 @@ module.exports= class Dice {
             message.channel.send(`Tes lancés sont : `+ list_score)
             const reducer = (accumulator, currentValue) => accumulator + currentValue;
             const total=list_score.reduce(reducer)
-            message.channel.send(`Le total de vos lancé vaut `+ total)
+            message.channel.send(`Le total de vos lancés vaut `+ total)
         }
         else{
             message.channel.send(`Tu as fait : `+ list_score)
